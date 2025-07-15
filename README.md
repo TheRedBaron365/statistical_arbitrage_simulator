@@ -1,2 +1,2 @@
 # statistical_arbitrage_simulator
-Stat-Arb Simulator is a lightweight backtester for z-score-based pairs trading strategies. It fetches historical stock data (e.g., AAPL and MSFT), computes the spread and its z-score, and simulates trades when the spread diverges beyond set thresholds (±1.5), exiting when it mean-reverts. The project visualizes price, z-score, and cumulative returns over time. It’s easy to set up: clone the repo, create a virtual environment, install dependencies, and run the Jupyter notebook. Core components include `src/fetch_data.py` for robust data handling and `notebooks/backtest.ipynb` for strategy logic and plots. Future improvements may include adding slippage, optimizing parameters, or testing cointegrated asset pairs.
+WIP
